@@ -1,17 +1,29 @@
 site_name: MECH & Cheese Programming Documentation
-site_url: https://jaegernauts5103.github.io/programming-documentation/
+# site_url: https://jaegernauts5103.github.io/programming-documentation/
+
 theme:
   name: material
+  features:
+    - navigation.instant
+    # - navigation.top
+    # - navigation.tabs
+    # - navigation.sections
+    # - navigation.expand
+    - navigation.tracking
+    - navigation.footer
   palette:
-    primary: orange
-    accent: deep orange
+    - scheme: default
+      primary: 'F0502A'
+      accent: 'F0502A'
+  language: en
+  icon:
+    repo: fontawesome/brands/github
+
 nav:
   - Home: index.md
   - FRC:
-      - Introduction: frc/intro.md
       - Drivetrain: frc/drivetrain.md
       - Sensors: frc/sensors.md
   - BEST:
-      - Overview: best/overview.md
       - Controls: best/controls.md
   - Resources: resources/links.md
