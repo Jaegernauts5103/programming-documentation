@@ -34,6 +34,5 @@ nav:
       - Drivetrain: frc/drivetrain.md
       - Sensors: frc/sensors.md
   - BEST:
-      - Overview: best/overview.md
       - Controls: best/controls.md
   - Resources: resources/links.md
