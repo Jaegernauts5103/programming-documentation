@@ -1,5 +1,5 @@
 site_name: MECH & Cheese Programming Documentation
-# site_url: https://sites.google.com/g.comalisd.org/mechsjaegernauts/home
+site_url: https://mech-and-cheese.github.io/programming-documentation/
 theme:
   name: material
   features:
