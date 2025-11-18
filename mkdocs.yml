@@ -1,14 +1,36 @@
 site_name: MECH & Cheese Programming Documentation
-site_url: https://jaegernauts5103.github.io/programming-documentation/
+# site_url: https://sites.google.com/g.comalisd.org/mechsjaegernauts/home
 theme:
   name: material
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.footer   # prev/next buttons
+    - content.code.copy   # copy code blocks
   palette:
-    primary: orange
-    accent: deep orange
+    - scheme: default
+      primary: 'F0502A'
+      accent: 'F0502A'
+  language: en
+  logo: images/team-name-transparent.png
+  favicon: images/team-name-transparent.png
+
+plugins:
+  - awesome-pages
+
 nav:
   - Home: index.md
+  - MK Docs:
+      - Overview: mkdocs/overview.md
+      - Getting Started: mkdocs/getting-started.md
+      - Accessing the Team Documentation Project: mkdocs/github.md
+      - Project Strucure: mkdocs/project-structure.md
+      - Markdown Formatting: mkdocs/markdown-formatting.md
+      - Customizing the Material Theme: mkdocs/material-theme.md
+      - Writing Guidelines: mkdocs/writing-guidelines.md
+      - FAQ and Troubleshooting: mkdocs/faq-troubleshooting.md
   - FRC:
-      - Introduction: frc/intro.md
+      - The Basics: frc/intro.md
       - Drivetrain: frc/drivetrain.md
       - Sensors: frc/sensors.md
   - BEST:
