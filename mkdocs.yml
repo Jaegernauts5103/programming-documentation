@@ -16,7 +16,9 @@ theme:
   favicon: images/team-name-transparent.png
 
 plugins:
-  # - awesome-pages
+  - search
+  - encryptcontent
+  - awesome-pages
 
 nav:
   - Home: index.md
@@ -36,4 +38,6 @@ nav:
       - Electrical: frc/electrical.md
   - BEST:
       - Controls: best/controls.md
-  - Resources: resources/links.md
+  - Resources:
+      - Sources: resources/links.md
+      - Team Resources: resources/team-only-links.md
